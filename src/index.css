@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Quicksand&display=swap");
+
+/* CSS Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+input,
+textarea,
+button {
+  font: inherit;
+}
+
+/* UTILITY CLASSES */
+.nowrap {
+  white-space: nowrap;
+}
+
+.center {
+  text-align: center;
+}
+
+/* GENERAL STYLE */
+html {
+  scroll-behavior: smooth;
+  font-family: "Quicksand", sans-serif;
+}
+body {
+  background: #fefbf7;
+  color: #1c0c14;
+  min-height: 100vh;
+}
+h1,
+h2,
+h3 {
+  font-family: "Libre Baskerville", serif;
+}
+a:any-link {
+  color: #fafbfd;
+  text-decoration: none;
+}
+a:hover,
+a:focus-visible {
+  color: #e76d33;
+}
+a:active {
+  color: #9ed7e0;
+}
+
+/* MAIN */
+main {
+  margin: 0 auto;
+  width: 100%;
+}
+@media only screen and (min-width: 768px) {
+  main {
+    width: calc(95% - 1rem);
+  }
+}

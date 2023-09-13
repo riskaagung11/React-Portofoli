@@ -1,0 +1,14 @@
+.portofolio {
+  scroll-margin-top: 7rem;
+}
+.portofolio__h2 {
+  color: #e76d33;
+  font-size: clamp(1.5rem, 3.5vw, 2rem);
+  text-align: center;
+}
+.portofolio__p {
+  color: #074492;
+  font-size: 2.5rem;
+  margin-block: 9rem;
+  text-align: center;
+}

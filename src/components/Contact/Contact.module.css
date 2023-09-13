@@ -1,0 +1,65 @@
+.contact {
+  margin-bottom: 3rem;
+  scroll-margin-top: 5rem;
+}
+.contact__h2 {
+  color: #e76d33;
+  font-size: clamp(1.5rem, 3.5vw, 2rem);
+  margin-block: 2rem;
+  text-align: center;
+}
+.contact__card {
+  border-radius: 10px;
+  box-shadow: -20px 20px 60px #bebebe, 20px -20px 60px #ffffff;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 2rem 1.25rem;
+  width: 90%;
+}
+.contact__title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.25rem;
+}
+.contact__group label {
+  color: rgb(99, 102, 102);
+}
+.contact__form .contact__group input,
+.contact__form .contact__group textarea {
+  padding: 0.625rem;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin-top: 0.625rem;
+  margin-bottom: 1.25rem;
+  outline: 0;
+  width: 100%;
+  background-color: transparent;
+}
+.contact__form .contact__group input:focus,
+.contact__form .contact__group textarea:focus {
+  border-color: #3366cc;
+}
+.contact__form .contact__group textarea {
+  resize: none;
+  height: 6.25rem;
+}
+Button {
+  width: 100%;
+}
+@media only screen and (min-width: 768px) {
+  .contact__card {
+    width: 50%;
+  }
+  .contact__card Button {
+    width: 45%;
+  }
+  .contact__card .button {
+    text-align: right;
+  }
+}
