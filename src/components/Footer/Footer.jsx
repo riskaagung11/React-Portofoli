@@ -14,7 +14,7 @@ const Footer = () => (
       <a href="https://www.instagram.com/riskaagung/" target="_blank" rel="noreferrer">
         <IconBrandInstagram className={styles.footer__icon} />
       </a>
-      <a href="https://www.linkedin.com/in/riskaagung/" target="_blank" rel="noreferrer">
+      <a href="https://www.linkedin.com/in/riska-agung-11b26a1ba" target="_blank" rel="noreferrer">
         <IconBrandLinkedin className={styles.footer__icon} />
       </a>
       <a href="https://github.com/riskaagung11" target="_blank" rel="noreferrer">
